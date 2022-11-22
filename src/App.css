@@ -1,0 +1,51 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #FFF;
+  max-width: 500px;  
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #0008;
+}
+
+.card__btn {
+  color:#FFF;
+}
+
+.card__icon {
+  font-size: 30px;
+  float: left;
+  padding-right: 10px;
+}
+
+.card__quote {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card__author {
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+.card__btn {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 2;
+  cursor: pointer;
+  font-size: 20px;
+  color: #FFF;
+}
+
+.card__btn:hover {
+  transform: scale(1.5);
+  transition: transform 100ms ease;
+}
